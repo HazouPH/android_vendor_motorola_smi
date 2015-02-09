@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigurableDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./Schemas/ConfigurableDomains.xsd" SystemClassName="Misc">
+  <!-- Exported on 2012-04-02, 17:12:07 from parameter-framework version 2.1.0 -->
+  <ConfigurableDomain Name="VibratorState" SequenceAware="false">
+    <Configurations>
+      <Configuration Name="Off">
+        <CompoundRule Type="All">
+          <SelectionCriterionRule SelectionCriterion="VibratorState" MatchesWhen="Is" Value="Off"/>
+        </CompoundRule>
+      </Configuration>
+      <Configuration Name="On">
+        <CompoundRule Type="All">
+          <SelectionCriterionRule SelectionCriterion="VibratorState" MatchesWhen="Is" Value="On"/>
+        </CompoundRule>
+      </Configuration>
+    </Configurations>
+    <ConfigurableElements>
+      <ConfigurableElement Path="/Misc/VIBRATOR/DEVICE/0/MUX"/>
+      <ConfigurableElement Path="/Misc/VIBRATOR/DEVICE/0/STARTED"/>
+    </ConfigurableElements>
+    <Settings>
+      <Configuration Name="Off">
+        <ConfigurableElement Path="/Misc/VIBRATOR/DEVICE/0/MUX">
+          <EnumParameter Name="MUX">PWD</EnumParameter>
+        </ConfigurableElement>
+        <ConfigurableElement Path="/Misc/VIBRATOR/DEVICE/0/STARTED">
+          <BooleanParameter Name="STARTED">0</BooleanParameter>
+        </ConfigurableElement>
+      </Configuration>
+      <Configuration Name="On">
+        <ConfigurableElement Path="/Misc/VIBRATOR/DEVICE/0/MUX">
+          <EnumParameter Name="MUX">SPI</EnumParameter>
+        </ConfigurableElement>
+        <ConfigurableElement Path="/Misc/VIBRATOR/DEVICE/0/STARTED">
+          <BooleanParameter Name="STARTED">1</BooleanParameter>
+        </ConfigurableElement>
+      </Configuration>
+    </Settings>
+  </ConfigurableDomain>
+  <ConfigurableDomain Name="Calibration" SequenceAware="false">
+    <Configurations>
+      <Configuration Name="Default">
+        <CompoundRule Type="All"/>
+      </Configuration>
+    </Configurations>
+    <ConfigurableElements>
+      <ConfigurableElement Path="/Misc/VIBRATOR/DEVICE/0/SHAPE"/>
+    </ConfigurableElements>
+    <Settings>
+      <Configuration Name="Default">
+        <ConfigurableElement Path="/Misc/VIBRATOR/DEVICE/0/SHAPE">
+          <ParameterBlock Name="SHAPE">
+            <IntegerParameter Name="BOOST_TIME">7</IntegerParameter>
+            <BooleanParameter Name="BRAKE">0</BooleanParameter>
+            <IntegerParameter Name="CYCLE_COUNT">7</IntegerParameter>
+            <EnumParameter Name="DIRECTION">FORWARD</EnumParameter>
+            <IntegerParameter Name="DUTY_CYCLE">11</IntegerParameter>
+            <ParameterBlock Name="TIME">
+              <IntegerParameter Name="OFF">0</IntegerParameter>
+              <IntegerParameter Name="ON">15</IntegerParameter>
+            </ParameterBlock>
+          </ParameterBlock>
+        </ConfigurableElement>
+      </Configuration>
+    </Settings>
+  </ConfigurableDomain>
+</ConfigurableDomains>
