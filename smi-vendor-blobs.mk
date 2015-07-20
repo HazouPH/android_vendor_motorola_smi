@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-NH.bin:system/etc/firmware/vpimg_es305b-NH.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b.bin:system/etc/firmware/vpimg_es305b.bin \
 	vendor/motorola/smi/proprietary/etc/parameter-framework/ParameterFrameworkConfiguration.xml:system/etc/parameter-framework/ParameterFrameworkConfiguration.xml \
-	vendor/motorola/smi/proprietary/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml:system/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml \
 	vendor/motorola/smi/proprietary/etc/parameter-framework/Structure/Audio/AudienceSubsystem.xml:system/etc/parameter-framework/Structure/Audio/AudienceSubsystem.xml \
 	vendor/motorola/smi/proprietary/etc/parameter-framework/Structure/Audio/AudioClass.xml:system/etc/parameter-framework/Structure/Audio/AudioClass.xml \
 	vendor/motorola/smi/proprietary/etc/parameter-framework/Structure/Audio/ConfigurationSubsystem.xml:system/etc/parameter-framework/Structure/Audio/ConfigurationSubsystem.xml \
