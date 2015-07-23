@@ -91,16 +91,10 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/parameter-framework-plugins/Audio/libtinyamixer-subsystem.so:system/lib/parameter-framework-plugins/Audio/libtinyamixer-subsystem.so \
 	vendor/motorola/smi/proprietary/lib/parameter-framework-plugins/System/libproperty-subsystem.so:system/lib/parameter-framework-plugins/System/libproperty-subsystem.so \
 	vendor/motorola/smi/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
-	vendor/motorola/smi/proprietary/bin/msvdx_bin:system/bin/msvdx_bin \
-	vendor/motorola/smi/proprietary/bin/topaz_bin:system/bin/topaz_bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_dec_1.bin:system/etc/firmware/aac_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_enc_1.bin:system/etc/firmware/aac_enc_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_v1_dec_1.bin:system/etc/firmware/aac_v1_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_v2_dec_1.bin:system/etc/firmware/aac_v2_dec_1.bin \
-	vendor/motorola/smi/proprietary/etc/firmware/mp3_dec_1.bin:system/etc/firmware/mp3_dec_1.bin \
-	vendor/motorola/smi/proprietary/etc/firmware/msvdx_fw_mfld_DE2.0.bin:system/etc/firmware/msvdx_fw_mfld_DE2.0.bin \
-	vendor/motorola/smi/proprietary/etc/firmware/topazsc_fw.bin:system/etc/firmware/topazsc_fw.bin \
-	vendor/motorola/smi/proprietary/etc/firmware/wma9_dec_1.bin:system/etc/firmware/wma9_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/wrs_omxil_components.list:system/etc/wrs_omxil_components.list \
 	vendor/motorola/smi/proprietary/lib/lib_ARC_Omx_Plugin.so:system/lib/lib_ARC_Omx_Plugin.so \
 	vendor/motorola/smi/proprietary/lib/libarcaudiogetinfo.so:system/lib/libarcaudiogetinfo.so \
@@ -110,37 +104,27 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/libarcomx_qcelpenc_sharedlibrary.so:system/lib/libarcomx_qcelpenc_sharedlibrary.so \
 	vendor/motorola/smi/proprietary/lib/libarcomx_wmadec_sharedlibrary.so:system/lib/libarcomx_wmadec_sharedlibrary.so \
 	vendor/motorola/smi/proprietary/lib/libarcplatform.so:system/lib/libarcplatform.so \
-	vendor/motorola/smi/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
 	vendor/motorola/smi/proprietary/lib/libmixvbp_h264.so:system/lib/libmixvbp_h264.so \
 	vendor/motorola/smi/proprietary/lib/libmixvbp_mpeg4.so:system/lib/libmixvbp_mpeg4.so \
+	vendor/motorola/smi/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
 	vendor/motorola/smi/proprietary/lib/libmixvbp_vc1.so:system/lib/libmixvbp_vc1.so \
-	vendor/motorola/smi/proprietary/lib/libOMXVideoDecoderAVC.so:system/lib/libOMXVideoDecoderAVC.so \
-	vendor/motorola/smi/proprietary/lib/libOMXVideoDecoderAVCSecure.so:system/lib/libOMXVideoDecoderAVCSecure.so \
-	vendor/motorola/smi/proprietary/lib/libOMXVideoDecoderH263.so:system/lib/libOMXVideoDecoderH263.so \
-	vendor/motorola/smi/proprietary/lib/libOMXVideoDecoderMPEG4.so:system/lib/libOMXVideoDecoderMPEG4.so \
-	vendor/motorola/smi/proprietary/lib/libOMXVideoDecoderPAVC.so:system/lib/libOMXVideoDecoderPAVC.so \
-	vendor/motorola/smi/proprietary/lib/libOMXVideoDecoderWMV.so:system/lib/libOMXVideoDecoderWMV.so \
 	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderAVC.so:system/lib/libOMXVideoEncoderAVC.so \
 	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderH263.so:system/lib/libOMXVideoEncoderH263.so \
 	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderMPEG4.so:system/lib/libOMXVideoEncoderMPEG4.so \
 	vendor/motorola/smi/proprietary/lib/libremote-processor.so:system/lib/libremote-processor.so \
 	vendor/motorola/smi/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-	vendor/motorola/smi/proprietary/lib/libva_videodecoder.so:system/lib/libva_videodecoder.so \
 	vendor/motorola/smi/proprietary/lib/libva_videoencoder.so:system/lib/libva_videoencoder.so \
-	vendor/motorola/smi/proprietary/lib/libwrs_omxil_common.so:system/lib/libwrs_omxil_common.so \
-	vendor/motorola/smi/proprietary/lib/libwrs_omxil_core_pvwrapped.so:system/lib/libwrs_omxil_core_pvwrapped.so \
 	vendor/motorola/smi/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	vendor/motorola/smi/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+	vendor/motorola/smi/proprietary/etc/firmware/mp3_dec_1.bin:system/etc/firmware/mp3_dec_1.bin \
+	vendor/motorola/smi/proprietary/etc/firmware/msvdx_fw_mfld_DE2.0.bin:system/etc/firmware/msvdx_fw_mfld_DE2.0.bin \
+	vendor/motorola/smi/proprietary/etc/firmware/topazsc_fw.bin:system/etc/firmware/topazsc_fw.bin \
+	vendor/motorola/smi/proprietary/etc/firmware/wma9_dec_1.bin:system/etc/firmware/wma9_dec_1.bin \
 	vendor/motorola/smi/proprietary/lib/drm/libmotdrmplugin.so:system/lib/drm/libmotdrmplugin.so \
 	vendor/motorola/smi/proprietary/lib/hw/hwcomposer.smi.so:system/lib/hw/hwcomposer.smi.so \
-	vendor/motorola/smi/proprietary/lib/libdrm.so:system/lib/libdrm.so \
 	vendor/motorola/smi/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
 	vendor/motorola/smi/proprietary/lib/libsepdrm.so:system/lib/libsepdrm.so \
-	vendor/motorola/smi/proprietary/lib/libva-android.so:system/lib/libva-android.so \
-	vendor/motorola/smi/proprietary/lib/libva-tpi.so:system/lib/libva-tpi.so \
-	vendor/motorola/smi/proprietary/lib/libva.so:system/lib/libva.so \
 	vendor/motorola/smi/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
-	vendor/motorola/smi/proprietary/lib/libwsbm.so:system/lib/libwsbm.so \
 	vendor/motorola/smi/proprietary/lib/pvr_drv_video.so:system/lib/pvr_drv_video.so \
 	vendor/motorola/smi/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
 	vendor/motorola/smi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -163,7 +147,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/motorola/smi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/motorola/smi/proprietary/lib/hw/camera.vendor.sc1.so:system/lib/hw/camera.vendor.sc1.so \
-	vendor/motorola/smi/proprietary/lib/libintelmetadatabuffer.so:system/lib/libintelmetadatabuffer.so \
 	vendor/motorola/smi/proprietary/lib/libmfldadvci.so:system/lib/libmfldadvci.so \
 	vendor/motorola/smi/proprietary/lib/libSh3aParamsLiteOn8M.so:system/lib/libSh3aParamsLiteOn8M.so \
 	vendor/motorola/smi/proprietary/lib/libSh3aParamsSemcoLc898211.so:system/lib/libSh3aParamsSemcoLc898211.so \
