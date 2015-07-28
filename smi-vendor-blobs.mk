@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_v2_dec_1.bin:system/etc/firmware/aac_v2_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/wrs_omxil_components.list:system/etc/wrs_omxil_components.list \
 	vendor/motorola/smi/proprietary/lib/lib_ARC_Omx_Plugin.so:system/lib/lib_ARC_Omx_Plugin.so \
+	vendor/motorola/smi/proprietary/lib/libasfparser.so:system/lib/libasfparser.so \
 	vendor/motorola/smi/proprietary/lib/libarcaudiogetinfo.so:system/lib/libarcaudiogetinfo.so \
 	vendor/motorola/smi/proprietary/lib/libarcomx_evrcdec_sharedlibrary.so:system/lib/libarcomx_evrcdec_sharedlibrary.so \
 	vendor/motorola/smi/proprietary/lib/libarcomx_omxcore_sharedlibrary.so:system/lib/libarcomx_omxcore_sharedlibrary.so \
@@ -112,7 +113,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderH263.so:system/lib/libOMXVideoEncoderH263.so \
 	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderMPEG4.so:system/lib/libOMXVideoEncoderMPEG4.so \
 	vendor/motorola/smi/proprietary/lib/libremote-processor.so:system/lib/libremote-processor.so \
-	vendor/motorola/smi/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
 	vendor/motorola/smi/proprietary/lib/libva_videoencoder.so:system/lib/libva_videoencoder.so \
 	vendor/motorola/smi/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	vendor/motorola/smi/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
