@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_v2_dec_1.bin:system/etc/firmware/aac_v2_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/wrs_omxil_components.list:system/etc/wrs_omxil_components.list \
 	vendor/motorola/smi/proprietary/lib/lib_ARC_Omx_Plugin.so:system/lib/lib_ARC_Omx_Plugin.so \
-	vendor/motorola/smi/proprietary/lib/libasfparser.so:system/lib/libasfparser.so \
 	vendor/motorola/smi/proprietary/lib/libarcaudiogetinfo.so:system/lib/libarcaudiogetinfo.so \
 	vendor/motorola/smi/proprietary/lib/libarcomx_evrcdec_sharedlibrary.so:system/lib/libarcomx_evrcdec_sharedlibrary.so \
 	vendor/motorola/smi/proprietary/lib/libarcomx_omxcore_sharedlibrary.so:system/lib/libarcomx_omxcore_sharedlibrary.so \
@@ -105,10 +104,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/libarcomx_qcelpenc_sharedlibrary.so:system/lib/libarcomx_qcelpenc_sharedlibrary.so \
 	vendor/motorola/smi/proprietary/lib/libarcomx_wmadec_sharedlibrary.so:system/lib/libarcomx_wmadec_sharedlibrary.so \
 	vendor/motorola/smi/proprietary/lib/libarcplatform.so:system/lib/libarcplatform.so \
-	vendor/motorola/smi/proprietary/lib/libmixvbp_h264.so:system/lib/libmixvbp_h264.so \
-	vendor/motorola/smi/proprietary/lib/libmixvbp_mpeg4.so:system/lib/libmixvbp_mpeg4.so \
-	vendor/motorola/smi/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
-	vendor/motorola/smi/proprietary/lib/libmixvbp_vc1.so:system/lib/libmixvbp_vc1.so \
 	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderAVC.so:system/lib/libOMXVideoEncoderAVC.so \
 	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderH263.so:system/lib/libOMXVideoEncoderH263.so \
 	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderMPEG4.so:system/lib/libOMXVideoEncoderMPEG4.so \
