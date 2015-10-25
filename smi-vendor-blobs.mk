@@ -108,8 +108,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	vendor/motorola/smi/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
 	vendor/motorola/smi/proprietary/etc/firmware/mp3_dec_1.bin:system/etc/firmware/mp3_dec_1.bin \
-	vendor/motorola/smi/proprietary/etc/firmware/msvdx_fw_mfld_DE2.0.bin:system/etc/firmware/msvdx_fw_mfld_DE2.0.bin \
-	vendor/motorola/smi/proprietary/etc/firmware/topazsc_fw.bin:system/etc/firmware/topazsc_fw.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/wma9_dec_1.bin:system/etc/firmware/wma9_dec_1.bin \
 	vendor/motorola/smi/proprietary/lib/drm/libmotdrmplugin.so:system/lib/drm/libmotdrmplugin.so \
 	vendor/motorola/smi/proprietary/lib/hw/hwcomposer.smi.so:system/lib/hw/hwcomposer.smi.so \
