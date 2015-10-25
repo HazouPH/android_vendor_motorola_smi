@@ -104,11 +104,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/libarcomx_qcelpenc_sharedlibrary.so:system/lib/libarcomx_qcelpenc_sharedlibrary.so \
 	vendor/motorola/smi/proprietary/lib/libarcomx_wmadec_sharedlibrary.so:system/lib/libarcomx_wmadec_sharedlibrary.so \
 	vendor/motorola/smi/proprietary/lib/libarcplatform.so:system/lib/libarcplatform.so \
-	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderAVC.so:system/lib/libOMXVideoEncoderAVC.so \
-	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderH263.so:system/lib/libOMXVideoEncoderH263.so \
-	vendor/motorola/smi/proprietary/lib/libOMXVideoEncoderMPEG4.so:system/lib/libOMXVideoEncoderMPEG4.so \
 	vendor/motorola/smi/proprietary/lib/libremote-processor.so:system/lib/libremote-processor.so \
-	vendor/motorola/smi/proprietary/lib/libva_videoencoder.so:system/lib/libva_videoencoder.so \
 	vendor/motorola/smi/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	vendor/motorola/smi/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
 	vendor/motorola/smi/proprietary/etc/firmware/mp3_dec_1.bin:system/etc/firmware/mp3_dec_1.bin \
@@ -118,9 +114,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/drm/libmotdrmplugin.so:system/lib/drm/libmotdrmplugin.so \
 	vendor/motorola/smi/proprietary/lib/hw/hwcomposer.smi.so:system/lib/hw/hwcomposer.smi.so \
 	vendor/motorola/smi/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
-	vendor/motorola/smi/proprietary/lib/libsepdrm.so:system/lib/libsepdrm.so \
 	vendor/motorola/smi/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
-	vendor/motorola/smi/proprietary/lib/pvr_drv_video.so:system/lib/pvr_drv_video.so \
 	vendor/motorola/smi/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
 	vendor/motorola/smi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/motorola/smi/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_121.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_121.so \
