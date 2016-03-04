@@ -95,15 +95,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_enc_1.bin:system/etc/firmware/aac_enc_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_v1_dec_1.bin:system/etc/firmware/aac_v1_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_v2_dec_1.bin:system/etc/firmware/aac_v2_dec_1.bin \
-	vendor/motorola/smi/proprietary/etc/wrs_omxil_components.list:system/etc/wrs_omxil_components.list \
-	vendor/motorola/smi/proprietary/lib/lib_ARC_Omx_Plugin.so:system/lib/lib_ARC_Omx_Plugin.so \
-	vendor/motorola/smi/proprietary/lib/libarcaudiogetinfo.so:system/lib/libarcaudiogetinfo.so \
-	vendor/motorola/smi/proprietary/lib/libarcomx_evrcdec_sharedlibrary.so:system/lib/libarcomx_evrcdec_sharedlibrary.so \
-	vendor/motorola/smi/proprietary/lib/libarcomx_omxcore_sharedlibrary.so:system/lib/libarcomx_omxcore_sharedlibrary.so \
-	vendor/motorola/smi/proprietary/lib/libarcomx_qcelpdec_sharedlibrary.so:system/lib/libarcomx_qcelpdec_sharedlibrary.so \
-	vendor/motorola/smi/proprietary/lib/libarcomx_qcelpenc_sharedlibrary.so:system/lib/libarcomx_qcelpenc_sharedlibrary.so \
-	vendor/motorola/smi/proprietary/lib/libarcomx_wmadec_sharedlibrary.so:system/lib/libarcomx_wmadec_sharedlibrary.so \
-	vendor/motorola/smi/proprietary/lib/libarcplatform.so:system/lib/libarcplatform.so \
 	vendor/motorola/smi/proprietary/lib/libremote-processor.so:system/lib/libremote-processor.so \
 	vendor/motorola/smi/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	vendor/motorola/smi/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
@@ -145,11 +136,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24.bin \
 	vendor/motorola/smi/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin \
 	vendor/motorola/smi/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N.bin \
-	vendor/motorola/smi/proprietary/bin/enc_mgt_tool:system/bin/enc_mgt_tool \
-	vendor/motorola/smi/proprietary/etc/ecryptfs.tab:system/etc/ecryptfs.tab \
-	vendor/motorola/smi/proprietary/etc/encrypt.tab:system/etc/encrypt.tab \
-	vendor/motorola/smi/proprietary/lib/libdataencrypt_openssl.so:system/lib/libdataencrypt_openssl.so \
-	vendor/motorola/smi/proprietary/lib/libdataencrypt_utils.so:system/lib/libdataencrypt_utils.so \
 	vendor/motorola/smi/proprietary/bin/gkisystem:system/bin/gkisystem \
 	vendor/motorola/smi/proprietary/bin/gps_driver:system/bin/gps_driver \
 	vendor/motorola/smi/proprietary/bin/location:system/bin/location \
@@ -219,5 +205,4 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/shisp.bin:system/etc/firmware/shisp.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/fa_extension.bin:system/etc/firmware/fa_extension.bin \
 	vendor/motorola/smi/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-	vendor/motorola/smi/proprietary/bin/batt_health:system/bin/batt_health \
-	vendor/motorola/smi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so
+	vendor/motorola/smi/proprietary/bin/batt_health:system/bin/batt_health
