@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/bin/uim:system/bin/uim \
 	vendor/motorola/smi/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	vendor/motorola/smi/proprietary/bin/remote-process:system/bin/remote-process \
-	vendor/motorola/smi/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-BB.bin:system/etc/firmware/vpimg_es305b-BB.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-NH.bin:system/etc/firmware/vpimg_es305b-NH.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b.bin:system/etc/firmware/vpimg_es305b.bin \
@@ -103,7 +102,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/hw/hwcomposer.smi.so:system/lib/hw/hwcomposer.smi.so \
 	vendor/motorola/smi/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
 	vendor/motorola/smi/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
-	vendor/motorola/smi/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
 	vendor/motorola/smi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/motorola/smi/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_121.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_121.so \
 	vendor/motorola/smi/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_121.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_121.so \
