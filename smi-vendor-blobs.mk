@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/hw/audio_policy.smi.so:system/lib/hw/audio_policy.smi.so \
 	vendor/motorola/smi/proprietary/lib/libaudience-manager.so:system/lib/libaudience-manager.so \
 	vendor/motorola/smi/proprietary/lib/libaudiohalutils.so:system/lib/libaudiohalutils.so \
+	vendor/motorola/smi/proprietary/lib/libaudioresample.so:system/lib/libaudioresample.so \
 	vendor/motorola/smi/proprietary/lib/libevent-listener.so:system/lib/libevent-listener.so \
 	vendor/motorola/smi/proprietary/lib/libinterface-provider-lib.so:system/lib/libinterface-provider-lib.so \
 	vendor/motorola/smi/proprietary/lib/libinterface-provider.so:system/lib/libinterface-provider.so \
