@@ -202,5 +202,4 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/isp_acc_warping.bin:system/etc/firmware/isp_acc_warping.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/shisp.bin:system/etc/firmware/shisp.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/fa_extension.bin:system/etc/firmware/fa_extension.bin \
-	vendor/motorola/smi/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
 	vendor/motorola/smi/proprietary/bin/batt_health:system/bin/batt_health
