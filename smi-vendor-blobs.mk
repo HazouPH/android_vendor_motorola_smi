@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/bin/uim:system/bin/uim \
 	vendor/motorola/smi/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	vendor/motorola/smi/proprietary/bin/remote-process:system/bin/remote-process \
+	vendor/motorola/smi/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-BB.bin:system/etc/firmware/vpimg_es305b-BB.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-NH.bin:system/etc/firmware/vpimg_es305b-NH.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b.bin:system/etc/firmware/vpimg_es305b.bin \
