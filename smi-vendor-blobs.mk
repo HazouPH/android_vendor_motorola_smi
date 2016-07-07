@@ -154,13 +154,10 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/bin/mmgr:system/bin/mmgr \
 	vendor/motorola/smi/proprietary/etc/firmware/fw_sst_082f.bin:system/etc/firmware/fw_sst_082f.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/fw_sst_08e7.bin:system/etc/firmware/fw_sst_08e7.bin \
-	vendor/motorola/smi/proprietary/etc/rril/repository.txt:system/etc/rril/repository.txt \
 	vendor/motorola/smi/proprietary/etc/telephony/mmgr.conf:system/etc/telephony/mmgr.conf \
 	vendor/motorola/smi/proprietary/lib/libglib-2.0.so:system/lib/libglib-2.0.so \
 	vendor/motorola/smi/proprietary/lib/libmmgrcli.so:system/lib/libmmgrcli.so \
 	vendor/motorola/smi/proprietary/lib/libpn544_fw.bak:system/lib/libpn544_fw.bak \
-	vendor/motorola/smi/proprietary/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
-	vendor/motorola/smi/proprietary/lib/librapid-ril-util.so:system/lib/librapid-ril-util.so \
 	vendor/motorola/smi/proprietary/lib/libsecurity_api.so:system/lib/libsecurity_api.so \
 	vendor/motorola/smi/proprietary/lib/parameter-framework-plugins/Fs/libfs-subsystem.so:system/lib/parameter-framework-plugins/Fs/libfs-subsystem.so \
 	vendor/motorola/smi/proprietary/lib/hw/lights.smi.so:system/lib/hw/lights.smi.so \
