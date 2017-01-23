@@ -100,6 +100,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/mp3_dec_1.bin:system/etc/firmware/mp3_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/wma9_dec_1.bin:system/etc/firmware/wma9_dec_1.bin \
 	vendor/motorola/smi/proprietary/lib/drm/libmotdrmplugin.so:system/lib/drm/libmotdrmplugin.so \
+	vendor/motorola/smi/proprietary/lib/libnativedrm1.so:system/lib/libnativedrm1.so \
+	vendor/motorola/smi/proprietary/lib/libmotdrm1.so:system/lib/libmotdrm1.so \
 	vendor/motorola/smi/proprietary/lib/hw/hwcomposer.smi.so:system/lib/hw/hwcomposer.smi.so \
 	vendor/motorola/smi/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
 	vendor/motorola/smi/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
