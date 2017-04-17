@@ -107,19 +107,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
 	vendor/motorola/smi/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
 	vendor/motorola/smi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-	vendor/motorola/smi/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_121.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_121.so \
-	vendor/motorola/smi/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_121.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_121.so \
-	vendor/motorola/smi/proprietary/vendor/lib/hw/gralloc.smi.so:system/vendor/lib/hw/gralloc.smi.so \
 	vendor/motorola/smi/proprietary/vendor/lib/hw/memtrack.smi.so:system/vendor/lib/hw/memtrack.smi.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \

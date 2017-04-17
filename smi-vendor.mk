@@ -17,3 +17,18 @@
 # Pick up overlay for features that depend on non-open-source files
 
 $(call inherit-product, vendor/motorola/smi/smi-vendor-blobs.mk)
+
+VENDOR_SGX_CORE := SGX540_121
+
+PRODUCT_PACKAGES += \
+    libglslcompiler \
+    libIMGegl \
+    libpvr2d \
+    libpvrANDROID_WSEGL \
+    libPVRScopeServices \
+    libsrv_init \
+    libsrv_um \
+    libusc \
+    libGLESv1_CM_POWERVR \
+    libGLESv2_POWERVR \
+    gralloc.smi
