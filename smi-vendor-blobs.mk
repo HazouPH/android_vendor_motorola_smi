@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/bin/uim:system/bin/uim \
 	vendor/motorola/smi/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	vendor/motorola/smi/proprietary/bin/remote-process:system/bin/remote-process \
-	vendor/motorola/smi/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-BB.bin:system/etc/firmware/vpimg_es305b-BB.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-NH.bin:system/etc/firmware/vpimg_es305b-NH.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b.bin:system/etc/firmware/vpimg_es305b.bin \
@@ -165,7 +164,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/hw/vibrator.smi.so:system/lib/hw/vibrator.smi.so \
 	vendor/motorola/smi/proprietary/etc/firmware/TIInit_10.5.20.bts:system/etc/firmware/TIInit_10.5.20.bts \
 	vendor/motorola/smi/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
-	vendor/motorola/smi/proprietary/etc/wifi/TQS.ini:system/etc/wifi/TQS.ini \
 	vendor/motorola/smi/proprietary/etc/firmware/atmxt-r1.tdat:system/etc/firmware/atmxt-r1.tdat \
 	vendor/motorola/smi/proprietary/etc/firmware/atmxt-r2.tdat:system/etc/firmware/atmxt-r2.tdat \
 	vendor/motorola/smi/proprietary/etc/atomisp/CGamma_DIS5MP.bin:system/etc/atomisp/CGamma_DIS5MP.bin \

@@ -31,4 +31,8 @@ PRODUCT_PACKAGES += \
     libusc \
     libGLESv1_CM_POWERVR \
     libGLESv2_POWERVR \
-    gralloc.smi
+    gralloc.smi \
+
+PRODUCT_PACKAGES += \
+    libtinyalsa \
+    libpvr2d
