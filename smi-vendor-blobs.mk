@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
 	vendor/motorola/smi/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
 	vendor/motorola/smi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-	vendor/motorola/smi/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_121.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_121.so \
 	vendor/motorola/smi/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_121.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_121.so \
 	vendor/motorola/smi/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_121.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_121.so \
 	vendor/motorola/smi/proprietary/vendor/lib/hw/gralloc.smi.so:system/vendor/lib/hw/gralloc.smi.so \
