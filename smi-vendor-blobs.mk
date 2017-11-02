@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/parameter-framework-plugins/Audio/libtinyalsactl-subsystem.so:system/lib/parameter-framework-plugins/Audio/libtinyalsactl-subsystem.so \
 	vendor/motorola/smi/proprietary/lib/parameter-framework-plugins/Audio/libtinyamixer-subsystem.so:system/lib/parameter-framework-plugins/Audio/libtinyamixer-subsystem.so \
 	vendor/motorola/smi/proprietary/lib/parameter-framework-plugins/System/libproperty-subsystem.so:system/lib/parameter-framework-plugins/System/libproperty-subsystem.so \
-	vendor/motorola/smi/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_dec_1.bin:system/etc/firmware/aac_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_enc_1.bin:system/etc/firmware/aac_enc_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_v1_dec_1.bin:system/etc/firmware/aac_v1_dec_1.bin \
