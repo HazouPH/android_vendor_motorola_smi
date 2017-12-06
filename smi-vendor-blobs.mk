@@ -72,7 +72,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/phonecall_es305b_speaker_far_talk_csv_wb.bin:system/etc/phonecall_es305b_speaker_far_talk_csv_wb.bin \
 	vendor/motorola/smi/proprietary/etc/phonecall_es305b_speaker_far_talk_voip_nb.bin:system/etc/phonecall_es305b_speaker_far_talk_voip_nb.bin \
 	vendor/motorola/smi/proprietary/etc/phonecall_es305b_speaker_far_talk_voip_wb.bin:system/etc/phonecall_es305b_speaker_far_talk_voip_wb.bin \
-	vendor/motorola/smi/proprietary/lib/hw/audio.primary.smi.so:system/lib/hw/audio.primary.smi.so \
+	vendor/motorola/smi/proprietary/lib/hw/audio.primary.vendor.smi.so:system/lib/hw/audio.primary.vendor.smi.so \
 	vendor/motorola/smi/proprietary/lib/hw/audio_policy.smi.so:system/lib/hw/audio_policy.smi.so \
 	vendor/motorola/smi/proprietary/lib/libaudience-manager.so:system/lib/libaudience-manager.so \
 	vendor/motorola/smi/proprietary/lib/libaudiohalutils.so:system/lib/libaudiohalutils.so \
@@ -166,7 +166,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml:system/etc/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml \
 	vendor/motorola/smi/proprietary/etc/parameter-framework/Structure/Vibrator/AlsaVibratorClass.xml:system/etc/parameter-framework/Structure/Vibrator/AlsaVibratorClass.xml \
 	vendor/motorola/smi/proprietary/etc/parameter-framework/Structure/Vibrator/AlsaVibratorSubsystem.xml:system/etc/parameter-framework/Structure/Vibrator/AlsaVibratorSubsystem.xml \
-	vendor/motorola/smi/proprietary/lib/hw/vibrator.smi.so:system/lib/hw/vibrator.smi.so \
+	vendor/motorola/smi/proprietary/lib/hw/vibrator.vendor.smi.so:system/lib/hw/vibrator.vendor.smi.so \
 	vendor/motorola/smi/proprietary/etc/firmware/TIInit_10.5.20.bts:system/etc/firmware/TIInit_10.5.20.bts \
 	vendor/motorola/smi/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
 	vendor/motorola/smi/proprietary/etc/wifi/TQS.ini:system/etc/wifi/TQS.ini \
