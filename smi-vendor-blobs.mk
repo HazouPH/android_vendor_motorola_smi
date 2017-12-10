@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/bin/bd_prov:system/bin/bd_prov \
 	vendor/motorola/smi/proprietary/bin/uim:system/bin/uim \
 	vendor/motorola/smi/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-	vendor/motorola/smi/proprietary/bin/remote-process:system/bin/remote-process \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-BB.bin:system/etc/firmware/vpimg_es305b-BB.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-NH.bin:system/etc/firmware/vpimg_es305b-NH.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b.bin:system/etc/firmware/vpimg_es305b.bin \
@@ -93,7 +92,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_enc_1.bin:system/etc/firmware/aac_enc_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_v1_dec_1.bin:system/etc/firmware/aac_v1_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/aac_v2_dec_1.bin:system/etc/firmware/aac_v2_dec_1.bin \
-	vendor/motorola/smi/proprietary/lib/libremote-processor.so:system/lib/libremote-processor.so \
 	vendor/motorola/smi/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	vendor/motorola/smi/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
 	vendor/motorola/smi/proprietary/etc/firmware/mp3_dec_1.bin:system/etc/firmware/mp3_dec_1.bin \
