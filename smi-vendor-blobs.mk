@@ -158,7 +158,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/libpn544_fw.bak:system/lib/libpn544_fw.bak \
 	vendor/motorola/smi/proprietary/lib/libsecurity_api.so:system/lib/libsecurity_api.so \
 	vendor/motorola/smi/proprietary/lib/parameter-framework-plugins/Fs/libfs-subsystem.so:system/lib/parameter-framework-plugins/Fs/libfs-subsystem.so \
-	vendor/motorola/smi/proprietary/lib/hw/lights.smi.so:system/lib/hw/lights.smi.so \
 	vendor/motorola/smi/proprietary/lib/hw/sensors.smi.so:system/lib/hw/sensors.smi.so \
 	vendor/motorola/smi/proprietary/etc/thermal_sensor_config.xml:system/etc/thermal_sensor_config.xml \
 	vendor/motorola/smi/proprietary/etc/thermal_throttle_config.xml:system/etc/thermal_throttle_config.xml \
