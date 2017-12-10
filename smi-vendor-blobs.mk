@@ -168,7 +168,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/lib/hw/vibrator.vendor.smi.so:system/lib/hw/vibrator.vendor.smi.so \
 	vendor/motorola/smi/proprietary/etc/firmware/TIInit_10.5.20.bts:system/etc/firmware/TIInit_10.5.20.bts \
 	vendor/motorola/smi/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
-	vendor/motorola/smi/proprietary/etc/wifi/TQS.ini:system/etc/wifi/TQS.ini \
 	vendor/motorola/smi/proprietary/etc/firmware/atmxt-r1.tdat:system/etc/firmware/atmxt-r1.tdat \
 	vendor/motorola/smi/proprietary/etc/firmware/atmxt-r2.tdat:system/etc/firmware/atmxt-r2.tdat \
 	vendor/motorola/smi/proprietary/etc/atomisp/CGamma_DIS5MP.bin:system/etc/atomisp/CGamma_DIS5MP.bin \
