@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
 	vendor/motorola/smi/proprietary/etc/firmware/mp3_dec_1.bin:system/etc/firmware/mp3_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/wma9_dec_1.bin:system/etc/firmware/wma9_dec_1.bin \
-	vendor/motorola/smi/proprietary/lib/drm/libmotdrmplugin.so:system/lib/drm/libmotdrmplugin.so \
 	vendor/motorola/smi/proprietary/lib/hw/hwcomposer.smi.so:system/lib/hw/hwcomposer.smi.so \
 	vendor/motorola/smi/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
 	vendor/motorola/smi/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
@@ -106,7 +105,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_121.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_121.so \
 	vendor/motorola/smi/proprietary/vendor/lib/hw/gralloc.smi.so:system/vendor/lib/hw/gralloc.smi.so \
 	vendor/motorola/smi/proprietary/vendor/lib/hw/memtrack.smi.so:system/vendor/lib/hw/memtrack.smi.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
@@ -115,9 +113,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/motorola/smi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/motorola/smi/proprietary/lib/hw/camera.vendor.sc1.so:system/lib/hw/camera.vendor.sc1.so \
 	vendor/motorola/smi/proprietary/lib/libmfldadvci.so:system/lib/libmfldadvci.so \
