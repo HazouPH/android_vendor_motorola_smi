@@ -18,8 +18,6 @@
 PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/bin/akmd8963:system/bin/akmd8963 \
 	vendor/motorola/smi/proprietary/bin/bd_prov:system/bin/bd_prov \
-	vendor/motorola/smi/proprietary/bin/uim:system/bin/uim \
-	vendor/motorola/smi/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-BB.bin:system/etc/firmware/vpimg_es305b-BB.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b-NH.bin:system/etc/firmware/vpimg_es305b-NH.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/vpimg_es305b.bin:system/etc/firmware/vpimg_es305b.bin \
