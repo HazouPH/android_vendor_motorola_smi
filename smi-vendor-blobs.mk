@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
-	vendor/motorola/smi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/motorola/smi/proprietary/lib/hw/camera.vendor.sc1.so:system/lib/hw/camera.vendor.sc1.so \
 	vendor/motorola/smi/proprietary/lib/libmfldadvci.so:system/lib/libmfldadvci.so \
 	vendor/motorola/smi/proprietary/lib/libSh3aParamsLiteOn8M.so:system/lib/libSh3aParamsLiteOn8M.so \
