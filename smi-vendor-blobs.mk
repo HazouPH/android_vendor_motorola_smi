@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/mp3_dec_1.bin:system/etc/firmware/mp3_dec_1.bin \
 	vendor/motorola/smi/proprietary/etc/firmware/wma9_dec_1.bin:system/etc/firmware/wma9_dec_1.bin \
 	vendor/motorola/smi/proprietary/lib/hw/hwcomposer.smi.so:system/lib/hw/hwcomposer.smi.so \
-	vendor/motorola/smi/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
 	vendor/motorola/smi/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
 	vendor/motorola/smi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/motorola/smi/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_121.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_121.so \
@@ -105,7 +104,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/vendor/lib/hw/memtrack.smi.so:system/vendor/lib/hw/memtrack.smi.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-	vendor/motorola/smi/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
 	vendor/motorola/smi/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
@@ -144,7 +142,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/firmware/fw_sst_08e7.bin:system/etc/firmware/fw_sst_08e7.bin \
 	vendor/motorola/smi/proprietary/etc/telephony/mmgr.conf:system/etc/telephony/mmgr.conf \
 	vendor/motorola/smi/proprietary/lib/libglib-2.0.so:system/lib/libglib-2.0.so \
-	vendor/motorola/smi/proprietary/lib/libmmgrcli.so:system/lib/libmmgrcli.so \
 	vendor/motorola/smi/proprietary/lib/libpn544_fw.bak:system/lib/libpn544_fw.bak \
 	vendor/motorola/smi/proprietary/lib/libsecurity_api.so:system/lib/libsecurity_api.so \
 	vendor/motorola/smi/proprietary/lib/parameter-framework-plugins/Fs/libfs-subsystem.so:system/lib/parameter-framework-plugins/Fs/libfs-subsystem.so \
