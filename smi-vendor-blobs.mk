@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/smi/proprietary/etc/gps/ti/GPSCConfigFile.cfg:system/etc/gps/ti/GPSCConfigFile.cfg \
 	vendor/motorola/smi/proprietary/etc/gps/ti/patch-X.0.ce:system/etc/gps/ti/patch-X.0.ce \
 	vendor/motorola/smi/proprietary/etc/gps/ti/pathconfigfile.txt:system/etc/gps/ti/pathconfigfile.txt \
-	vendor/motorola/smi/proprietary/etc/location.cfg:system/etc/location.cfg \
 	vendor/motorola/smi/proprietary/lib/hw/gps.smi.so:system/lib/hw/gps.smi.so \
 	vendor/motorola/smi/proprietary/lib/libgki.so:system/lib/libgki.so \
 	vendor/motorola/smi/proprietary/lib/libgpsTI.so:system/lib/libgpsTI.so \
